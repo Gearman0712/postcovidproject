@@ -1,0 +1,75 @@
+.main{
+
+    background-color: darkslategrey;
+    justify-content: center;
+}
+
+  
+  button {
+    outline: none !important;
+  }
+  
+  html {
+  
+    background-color: darkslategrey;
+  }
+  
+  body {
+      padding: 100px;
+  
+   
+   
+  }
+  
+  .main_inner{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center
+  }
+  .item{
+       width: 500px;
+     /* //  height: 60rem; */
+       
+  }
+  h4{
+    text-align: center;
+  }
+  #Top{
+    text-align: center;
+   
+  }
+  .element {
+    height: 25px;
+    width: 50px;
+    margin-right: 20px;
+  
+    background-color: red;
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    padding-top: 40px;
+  }
+  
+  @keyframes stretch {
+    0% {
+      transform: scale(.3);
+      background-color: rgb(199, 10, 10);
+      border-radius: 100%;
+    }
+    50% {
+      background-color: rgb(199, 10, 10);
+    }
+    100% {
+      transform: scale(1.2);
+      background-color: rgb(199, 10, 10);
+    }
+  }
+  .titl{
+      display: flex;
+      justify-content: center;
+  }
